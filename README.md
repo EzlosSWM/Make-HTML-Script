@@ -6,12 +6,11 @@
 #         #    #      #    #      # 
 #        #     #      #    # #    # 
 ####### ###### ######  ####   ####  
-
-
-## Installation
+```
 ___
-
-Create a bin folder in your Home directory. If you already have a bin folder, you can use it or you can make another folder with a different name.
+## Installation
+Create a bin folder in your Home directory. 
+If you already have a bin folder, you can use it or you can make another folder with a different name.
 ```bash 
 mkdir ~/bin
 ```
@@ -24,16 +23,6 @@ cd ~/bin
 Downloads the script.
 ```bash
 git clone https://github.com/ezlosbb/Make-HTML-Script.git
-```
-
-Give the shell executable permissions
-```bash 
-chmod +x mksite.sh 
-```
-
-Add the current folder (/bin) to PATH in order to run the script from any directory
-```bash 
-export PATH="~/bin:$PATH"
 ```
 
 ___
